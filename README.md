@@ -10,7 +10,7 @@ Este projeto foi criado com o objetivo de demonstrar domínio em **React**, **Ty
 
 ## Pré-visualização
 
-![Screenshot do projeto](./src/assets/valorant-screenshot.png)
+![Screenshot do projeto](./src/assets/valorant-screenshot.gif)
 
 ## Tecnologias
 

@@ -6,8 +6,7 @@ const Footer: React.FC = () => {
     <section className="footer">
       <div className="container">
         <p className="footer-text">
-          Sua inscrição garante dicas exclusivas, estratégias e as principais
-          notícias do cenário competitivo.
+          By registering, you'll receive exclusive tips, game-changing strategies, and the most important news from the competitive scene to elevate your gameplay and stand out from the crowd.
         </p>
         <img
           src={valorantLogo}
@@ -20,10 +19,3 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-
-
-
-
-
-
-

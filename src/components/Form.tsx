@@ -8,11 +8,11 @@ const Form: React.FC = () => {
     e.preventDefault();
 
     if (!whatsapp.trim() || !email.trim()) {
-      alert("Por favor, preencha todos os campos.");
+      alert("Please fill in all the fields.");
       return;
     }
 
-    alert("Parabéns! Sua vaga foi confirmada. Prepare-se para o combate.");
+    alert("Congratulations! Your spot has been confirmed. Prepare for combat.");
     setWhatsapp("");
     setEmail("");
   };
@@ -21,17 +21,17 @@ const Form: React.FC = () => {
     <section className="form-section" id="form">
       <div className="container">
         <h2 className="form-title">
-          <b className="highlight">Garanta</b> sua vaga!
+          <b className="highlight">Secure</b> your spot!
         </h2>
         <p className="form-subtitle">
-          DIGITE SEU WHATSAPP E E-MAIL PARA RECEBER DICAS EXCLUSIVAS DE VALORANT
+          Unlock your potential in Valorant! Provide your WhatsApp and email to receive our exclusive tips, tricks, and guides that will help you improve your game.
         </p>
 
         <form onSubmit={handleSubmit}>
           <input
             type="text"
             name="whatsapp"
-            placeholder="Seu WhatsApp"
+            placeholder="Your WhatsApp"
             required
             value={whatsapp}
             onChange={(e) => setWhatsapp(e.target.value)}
@@ -39,12 +39,12 @@ const Form: React.FC = () => {
           <input
             type="email"
             name="email"
-            placeholder="Seu e-mail"
+            placeholder="Your e-mail"
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <button type="submit">CONFIRMAR MINHA VAGA!</button>
+          <button type="submit">CONFIRM MY SPOT!</button>
         </form>
       </div>
     </section>
@@ -52,7 +52,3 @@ const Form: React.FC = () => {
 };
 
 export default Form;
-
-
-
-
