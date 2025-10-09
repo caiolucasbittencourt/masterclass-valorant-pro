@@ -24,7 +24,9 @@ const Form: React.FC = () => {
           <b className="highlight">Secure</b> your spot!
         </h2>
         <p className="form-subtitle">
-          Unlock your potential in Valorant! Provide your WhatsApp and email to receive our exclusive tips, tricks, and guides that will help you improve your game.
+          Unlock your potential in Valorant! Provide your WhatsApp and email to
+          receive our exclusive tips, tricks, and guides that will help you
+          improve your game.
         </p>
 
         <form onSubmit={handleSubmit}>
