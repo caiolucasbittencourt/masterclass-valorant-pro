@@ -15,9 +15,9 @@ const Hero: React.FC = () => {
       <div className="container">
         <h2 className="title"></h2>
         <h1 className="subtitle">
-          Learn how to master <br />
-          <b className="highlight">the most played FPS</b>
-          <br /> in less than 30 days
+          Learn how to master
+          <b className="highlight"> the most played FPS </b>
+          in less than 30 days
         </h1>
         <p className="cta-text">Click the button below to secure your spot</p>
         <a href="#form" className="cta-button">
