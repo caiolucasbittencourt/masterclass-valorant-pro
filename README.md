@@ -6,9 +6,9 @@
 
 Landing page desenvolvida para uma campanha de captação de leads de uma masterclass de **Valorant**.
 
-## Pré-visualização
+## Preview
 
-![Screenshot do projeto](./src/assets/valorant-screenshot.gif)
+![Preview](./src/assets/valorant-screenshot.gif)
 
 ## Funcionalidades
 
@@ -22,3 +22,11 @@ Landing page desenvolvida para uma campanha de captação de leads de uma master
 - TypeScript
 - Vite
 - HTML5 & CSS3
+
+## Instalação
+
+```bash
+git clone https://github.com/caiolucasbittencourt/masterclass-valorant-pro
+cd masterclass-valorant-pro
+npm install
+npm run dev
