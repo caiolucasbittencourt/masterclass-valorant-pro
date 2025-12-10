@@ -4,11 +4,7 @@
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-Landing page desenvolvida para uma campanha de captação de leads de uma masterclass de **Valorant**.
-
-## Preview
-
-![Preview](./src/assets/valorant-screenshot.gif)
+Landing page para uma campanha de captação de leads de uma masterclass de **Valorant**.
 
 ## Funcionalidades
 
